@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../assets/fundo-parte.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+#sidebar-left {
+    position: fixed;
+    width: 270px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #182B5C;
+}
+
+.topic {
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li.topic a {
+    text-decoration: none;
+    color: white;
+}
+
+li.topic a:hover {
+    text-decoration: underline;
+    color: #f0f0f0;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    margin-left: 13%;
+
+}
+#sidebar-right{
+    position: fixed;
+    width: 270px;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    background: #182B5C; 
+}
+.form-group{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.button{
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#id{
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}

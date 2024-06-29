@@ -1,0 +1,82 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    
+    display: flex;
+}
+
+#sidebar-left {
+    position: fixed;
+    width: 270px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #182B5C;
+}
+
+.geral {
+    flex: 1;
+    background-image: url(../assets/fundo-buscar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 260px;
+}
+
+.topic {
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li.topic a {
+    text-decoration: none;
+    color: white;
+}
+
+li.topic a:hover {
+    text-decoration: underline;
+    color: #f0f0f0;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-left: 13%;
+}
+
+.espaco{
+    margin-top: 25px;
+}
+
+.a1, .a2 {
+    font-size: 40px;
+}
+
+.resultadoConsulta2 {
+    border: solid;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+}

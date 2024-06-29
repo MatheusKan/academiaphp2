@@ -1,0 +1,30 @@
+body {
+    position: relative;
+    background: #C4C4C4;
+    text-align: center;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+}
+
+#email, #senha {
+    background: #D9D9D9;
+    border-radius: 100px;
+    font-size: 16px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+.login{
+    width: 150px;
+    height: 35px;
+    background: #182B5C;
+    border-radius: 100px;
+    color: white;
+}
+.select{
+    font-size: 20px;
+}

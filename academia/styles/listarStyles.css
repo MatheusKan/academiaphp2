@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(assets/fundo-buscar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+#sidebar-left {
+    position: fixed;
+    width: 270px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #182B5C;
+}
+
+.geral {
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.topic {
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li.topic a {
+    text-decoration: none;
+    color: white;
+}
+
+li.topic a:hover {
+    text-decoration: underline;
+    color: #f0f0f0;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-left: 13%;
+}
+.titleTable {
+    background-color: #182B5C;
+    color: white;
+    padding: 7px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}

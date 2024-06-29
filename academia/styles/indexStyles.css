@@ -1,0 +1,131 @@
+body {
+    position: relative;
+    margin: 0;
+}
+
+.header {
+    background: #D6D6D6;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.optionOrganization {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.option {
+    font-family: 'Josefin Sans';
+    color: black;
+    margin-left: 50px;
+}
+
+.login {
+    margin-left: 50px;
+    width: 150px;
+    height: 35px;
+    background: #182B5C;
+    border-radius: 100px;
+    color: white;
+}
+
+.fundo {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.planOrganization {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid rgb(236, 236, 236);
+    padding: 10px;
+}
+
+.titlePlan {
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 50px;
+    color: #000000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.imagenPlan {
+    width: 251px;
+    height: 406px;
+    left: 112px;
+    top: 1129px;
+    margin-bottom: 10px;
+}
+
+.textPlan {
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.section2 {
+    margin-top: 100px;
+    display: flex;
+}
+
+.fundo2 {
+    width: 500px;
+    height: 600px;
+}
+
+.textInfo {
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 34px;
+    color: #000000;
+    margin-left: 50px;
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+}
+
+.logo1 {
+    width: 100px;
+    height: 100px;
+}
+
+.textSocial {
+    color: white;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 24px;
+}
