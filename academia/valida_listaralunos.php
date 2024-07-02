@@ -32,7 +32,7 @@ FROM tbMatricula m
 INNER JOIN tbAluno a ON m.idAluno = a.idAluno
 INNER JOIN tbTurma t ON m.idTurma = t.idTurma
 INNER JOIN tbProfessor p ON t.idProfessor = p.idProfessor
-WHERE t.idTurma = 1
+WHERE t.idTurma = $id2
   AND p.idProfessor = $id";
 $res = mysqli_query($con, $sql);
 
